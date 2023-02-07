@@ -36,5 +36,6 @@
 @media screen and (max-width: 390px) {
     #sub-p{
         padding: 0px 30px 0px 30px;
+        margin-bottom: 50px;
     }
 }
