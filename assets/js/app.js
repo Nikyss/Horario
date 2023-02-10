@@ -18,11 +18,11 @@ function updateTime() {
   
     let message;
     let activeIcon;
-    if (hour >= 6 && hour < 11) {
+    if (hour >= 6 && hour < 12) {
       message = "BOM DIA! 🌅";
       background.style.backgroundColor = '#F0DD9C'
       activeIcon = 0;
-    } else if (hour >= 12 && hour < 17) {
+    } else if (hour >= 12 && hour < 18) {
       message = "BOA TARDE! 😂";
       background.style.backgroundColor = '#f49e12'
       activeIcon = 1;
